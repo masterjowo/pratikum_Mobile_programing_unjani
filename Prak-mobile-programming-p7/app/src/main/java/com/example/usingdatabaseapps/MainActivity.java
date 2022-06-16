@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         Button btn = (Button) findViewById(R.id.button2);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent inte = new Intent(MainActivity.this, InputActivity.class);
+            public void onClick(View arg0) {
+                Intent inte = new Intent(MainActivity.this, coba.class);
                 startActivity(inte);
             }
         });
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View args0) {
-                        Intent inte = new Intent(MainActivity.this, InputActivity.class);
+                        Intent inte = new Intent(MainActivity.this, coba.class);
                         startActivity(inte);
                     }
                 });
